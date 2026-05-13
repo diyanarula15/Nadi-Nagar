@@ -1,0 +1,33 @@
+{
+  "surface": {
+    "bias": -2.25,
+    "road_dip_mm": 0.31,
+    "crack_score": 2.15,
+    "vibration_g": 1.55,
+    "surface_moisture": 1.2,
+    "traffic_entropy": 0.72
+  },
+  "acoustic": {
+    "bias": -2.0,
+    "hiss_db": 0.065,
+    "knock_rate": 0.28,
+    "pressure_drop": 1.85,
+    "flow_variance": 1.15
+  },
+  "flood": {
+    "bias": -1.55,
+    "rainfall_mm_hr": 0.11,
+    "drain_level_cm": 0.055,
+    "blockage_score": 1.7,
+    "upstream_velocity": 0.65,
+    "surface_moisture": 1.05
+  },
+  "traffic": {
+    "bias": -1.35,
+    "hard_brake_rate": 1.8,
+    "lane_cut_score": 1.6,
+    "speed_variance": 0.75,
+    "crowd_context": -0.9
+  }
+}
+
